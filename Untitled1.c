@@ -3,7 +3,7 @@ int ond (float x);
 int main() {
 	float a;
 	int b ;
-	scanf("%f",a) ;
+	scanf("%f",&a) ;
 	b=ond(a);
 	printf("%d",b);
 	getchar();
